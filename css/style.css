@@ -1,4 +1,13 @@
+.container-fluid{
+    background-color: #1abc9c;
+}
+
 .jumbo{
     height: 450px;
-    background-color: #1abc9c;
+}
+
+.image-portfolio{
+    height: 100px;
+    background-color: red;
+    border: 1px solid black;
 }
