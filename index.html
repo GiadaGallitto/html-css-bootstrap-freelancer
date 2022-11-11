@@ -10,11 +10,34 @@
     </head>
 
     <body>
-            <header>
-                <section class="green pb-5">
-                    <div class="container jumbo">
-                        <div class="image h-75 bg-primary"></div>
-                        <div class="content h-25 bg-light"></div>
+        <header class="green">
+            <section>
+                <nav class="navbar navbar-expand-md navbar-light">
+                    <div class="container-fluid d-flex">
+                        <a class="navbar-brand text-uppercase fw-bold text-light" href="#">start bootstrap</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="d-flex collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                            <!-- </ul> -->
+                            <div class="d-flex align-items-center">
+                                <ul class="list-unstyled mb-0">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </section>
+
+                <section class="pb-5">
+                    <div class="row justify-content-center">
+                        <div class=" col-12 bg-light col-md-10 col-lg-7">
+                            <div class="content jumbo">
+                                <div class="image m-auto h-75 bg-primary"></div>
+                                <div class="content m-auto h-25 w-75 bg-info"></div>
+                            </div>
+                        </div>
                     </div>
                 </section>
             </header>
@@ -22,8 +45,12 @@
             <main>
                 <section class="bg-white pb-5">
                     <div class="container text-center">
-                        <h1>Title</h1>
-                        <div class="divider">-</div>
+                        <div class="row">
+                            <div class="col-12">
+                                <h1>Title</h1>
+                                <div class="divider">-</div>
+                            </div>
+                        </div>
                         <div class="row g-2">
                             <div class="col-12 col-md-6 col-lg-4">
                                 <div class="image-portfolio">ciao</div>
@@ -49,8 +76,10 @@
 
                 <section class="green pb-5">
                     <div class="container text-center">
-                        <h2>Title</h2>
-                        <div class="divider">-</div>
+                        <div class="row">
+                            <h2>Title</h2>
+                            <div class="divider">-</div>
+                        </div>
                         <div class="row g-2">
                             <div class="col-12 col-md-6">
                                 <div class="about">ciao</div>
@@ -59,7 +88,11 @@
                                 <div class="about">ciao</div>
                             </div>
                         </div>
-                        <button class="btn-info">download</button>
+                        <div class="row">
+                            <div class="col-12">
+                                <button class="btn-info">download</button>
+                            </div>
+                        </div>
                     </div>
                 </section>
 
@@ -69,8 +102,8 @@
             </main>
 
             <footer>
-                <section class="strange-blue">
-                    <div class="container contacts p-3">
+                <section class="light-blue">
+                    <div class="container upper-footer p-3">
                         <div class="row text-center">
                             <div class="col-12 col-md-4 info">info</div>
                             <div class="col-12 col-md-4 info">info</div>
@@ -78,10 +111,12 @@
                         </div>
                     </div>
                 </section>
-                <section class="very-strange-blue">
+                <section class="dark-blue">
                     <div class="container copyright p-3">
                         <div class="row text-center">
-                            <div class="text">Copyright</div>
+                            <div class="col-12">
+                                <div class="text">Copyright</div>
+                            </div>
                         </div>
                     </div>
                 </section>
