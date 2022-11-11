@@ -34,7 +34,6 @@ main .divider .line{
 
 
 .image-portfolio{
-    background-color: red;
     overflow: hidden;
     border-radius: 10px;
 }
@@ -54,9 +53,19 @@ textarea{
     width: 99%;
 }
 
-.info{
-    height: 100px;
-    color: white;
-    /* da togliere border e height */
+.info span{
+    color: #1abc9c;
+}
+
+.icons-social i{
+    padding-top: 0.2rem;
+    font-size: 0.8rem;
+    margin: 0 0.2rem;
     border: 1px solid white;
+    border-radius: 50%;
+    padding: 0.6rem 0.6rem;
+}
+
+.icons-social i.fa-facebook-f{
+    padding: 0.6rem 0.8rem;
 }
