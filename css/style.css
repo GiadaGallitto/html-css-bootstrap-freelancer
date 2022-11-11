@@ -42,11 +42,8 @@ main .divider .line{
     border-radius: 10px;
 }
 
-.about{
-    height: 150px;
-    /* da togliere border e height */
-    border: 1px solid black; 
-    color: white;
+.about p{
+    font-weight: 600;
 }
 
 .info{
